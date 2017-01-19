@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+.navigation {
+    background-color: #00376f;
+    border: 1px solid #00376f;
+    height: 100%;
+    width: calc(17% - 20px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    border-radius: 0px;
+    border-width: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-header {
+    background-color: #00376f;
+    color: #FFF;
+    float: none;
+}
+
+.navbar-brand {
+    height: 38px;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+
+.navbar-brand a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+}
+
+.panel-default {
+    border: none;
+}
+
+.panel-default .panel-heading {
+    background-color: #0078f0;
+    border: none;
+    border-radius: 0;
+    color: #FFF;
+}
+
+.panel-body ul {
+    float: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.panel-body li {
+    float: none;
+    font-size: 15px;
+    margin: 6px;
+}
