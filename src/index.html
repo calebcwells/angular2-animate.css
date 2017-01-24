@@ -7,8 +7,34 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    .loading-spin {
+      -webkit-animation: spin 1s infinite linear;
+      -moz-animation: spin 1s infinite linear;
+      -o-animation: spin 1s infinite linear;
+      animation: spin 1s infinite linear;
+      -webkit-transform-origin: 50% 50%;
+      transform-origin:50% 50%;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
 </head>
 <body>
-  <app-root>Loading...</app-root>
+  <ng2animate-app-root>
+      <div style="position: relative; margin: 0 auto; color: #0078F0; height: 100px; width: 100px;">
+        <div style="position: absolute; top: 200%; font-size: 50px;">
+            <span class="glyphicon glyphicon-repeat loading-spin"></span>
+            <span class="sr-only" style="text-align: center;">Loading...</span>
+        </div>
+      </div>
+    </ng2animate-app-root>
 </body>
 </html>
