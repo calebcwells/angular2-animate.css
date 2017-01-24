@@ -1,6 +1,6 @@
 import { animate, keyframes, state, style, transition, trigger } from '@angular/core';
 
-export const Bounce =
+export const bounce =
     trigger('bounce', [
         transition(':enter', animate('1s 250ms', keyframes([
             style({ transform: 'translate3d(0,0,0)', offset: 0 }),

@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { BOXLIST } from '../../box/box.list';
-import { bounce } from '../../animations/bounce.animation';
+import { jello } from '../../animations/jello.animation';
 
 @Component({
-  selector: 'ng2animate-bounce',
+  selector: 'ng2animate-jello',
   host: { 'class': 'boxes' },
-  templateUrl: './bounce.component.html',
-  animations: [ bounce ]
+  templateUrl: './jello.component.html',
+  animations: [ jello ]
 })
-export class BounceComponent implements OnInit {
+export class JelloComponent implements OnInit {
   boxList: any[] = [];
 
-  constructor() {}
+  constructor() { }
 
   removeBox(i){
     this.boxList.splice(i,1);
@@ -21,3 +21,4 @@ export class BounceComponent implements OnInit {
     this.boxList = BOXLIST;
   }
 }
+

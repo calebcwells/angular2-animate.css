@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { BOXLIST } from '../../box/box.list';
-import { bounce } from '../../animations/bounce.animation';
+import { tada } from '../../animations/tada.animation';
 
 @Component({
-  selector: 'ng2animate-bounce',
+  selector: 'ng2animate-tada',
   host: { 'class': 'boxes' },
-  templateUrl: './bounce.component.html',
-  animations: [ bounce ]
+  templateUrl: './tada.component.html',
+  animations: [ tada ]
 })
-export class BounceComponent implements OnInit {
+export class TadaComponent implements OnInit {
   boxList: any[] = [];
 
-  constructor() {}
+  constructor() { }
 
   removeBox(i){
     this.boxList.splice(i,1);

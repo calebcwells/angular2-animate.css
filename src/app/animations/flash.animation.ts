@@ -1,6 +1,6 @@
 import { animate, keyframes, state, style, transition, trigger } from '@angular/core';
 
-export const Flash =
+export const flash =
     trigger('flash', [
         transition(':enter', animate('1s 250ms', keyframes([
             style({ opacity: '1', offset: 0 }),

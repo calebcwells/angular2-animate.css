@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { BOXLIST } from '../../box/box.list';
-import { bounce } from '../../animations/bounce.animation';
+import { wobble } from '../../animations/wobble.animation';
 
 @Component({
-  selector: 'ng2animate-bounce',
+  selector: 'ng2animate-wobble',
   host: { 'class': 'boxes' },
-  templateUrl: './bounce.component.html',
-  animations: [ bounce ]
+  templateUrl: './wobble.component.html',
+  animations: [ wobble ]
 })
-export class BounceComponent implements OnInit {
+export class WobbleComponent implements OnInit {
   boxList: any[] = [];
 
-  constructor() {}
+  constructor() { }
 
   removeBox(i){
     this.boxList.splice(i,1);
