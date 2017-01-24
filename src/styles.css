@@ -101,6 +101,7 @@
     height: 8%;
     width: 8%;
     margin: 1%;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 997px) {
