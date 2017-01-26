@@ -14,6 +14,10 @@ import { TadaComponent } from './attentionseekers/tada/tada.component';
 import { WobbleComponent } from './attentionseekers/wobble/wobble.component';
 import { JelloComponent } from './attentionseekers/jello/jello.component';
 import { BounceInComponent } from './bouncingentrances/bounce-in/bounce-in.component';
+import { BounceInDownComponent } from './bouncingentrances/bounce-in-down/bounce-in-down.component';
+import { BounceInLeftComponent } from './bouncingentrances/bounce-in-left/bounce-in-left.component';
+import { BounceInRightComponent } from './bouncingentrances/bounce-in-right/bounce-in-right.component';
+import { BounceInUpComponent } from './bouncingentrances/bounce-in-up/bounce-in-up.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { BounceInComponent } from './bouncingentrances/bounce-in/bounce-in.compo
     TadaComponent,
     WobbleComponent,
     JelloComponent,
-    BounceInComponent
+    BounceInComponent,
+    BounceInDownComponent,
+    BounceInLeftComponent,
+    BounceInRightComponent,
+    BounceInUpComponent
   ],
   imports: [
     BrowserModule,

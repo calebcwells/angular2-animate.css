@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { BOXLIST } from '../../box/box.list';
-import { bounceIn } from '../../animations/bounce-in.animation';
+import { bounceInDown } from '../../animations/bounce-in-down.animation';
 
 @Component({
-  selector: 'ng2animate-bounce-in',
+  selector: 'ng2animate-bounce-in-down',
   host: { 'class': 'boxes' },
-  templateUrl: './bounce-in.component.html',
-  animations: [ bounceIn ]
+  templateUrl: './bounce-in-down.component.html',
+  animations: [ bounceInDown ]
 })
-export class BounceInComponent implements OnInit {
+export class BounceInDownComponent implements OnInit {
   boxList: any[] = [];
 
   constructor() { }
