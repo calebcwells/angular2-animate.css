@@ -30,6 +30,11 @@
     border: none;
     border-radius: 0;
     color: #FFF;
+    padding: 10px;
+}
+
+.panel-body {
+    padding: 10px;
 }
 
 .panel-body ul {
@@ -41,7 +46,7 @@
 .panel-body li {
     float: none;
     font-size: 15px;
-    margin: 6px;
+    margin: 3px;
 }
 
 .content {
@@ -49,10 +54,12 @@
     top: 0;
     left: calc(17% - 20px);
 }
+
 .header {
     background-color: #00376f;
     color: #FFF;
     position: relative;
+    z-index: 2;
     top:0;
     left: -15px;
     width: 110%;
@@ -71,6 +78,7 @@
 
 .boxes {
     position: fixed;
+    z-index: 1;
     top: 50px;
     width: 82%;
     height: 100%;
@@ -119,14 +127,31 @@
         text-align: center;
     }
 
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-body li {
+        font-size: 12px;
+        margin: 1px;
+    }
+
     .boxes {
         top: 60px;
         right: 0;
+        width: 78%;
         height: 100%;
+    }
+
+    .boxes li {
+        font-size: 10px;
+        font-weight: normal;
+        height: 5%;
+        width: 10%;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 560px) {
     .header {
         display: none;
     }
@@ -135,11 +160,10 @@
         top: 10px;
         width: 70%;
     }
+}
 
-    .boxes li {
-        font-size: 10px;
-        font-weight: normal;
-        height: 5%;
-        width: 10%;
+@media screen and (max-width: 400px) {
+    .boxes {
+        width: 65%;
     }
 }
