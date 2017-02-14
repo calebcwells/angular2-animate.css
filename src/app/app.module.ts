@@ -18,6 +18,20 @@ import { BounceInDownComponent } from './bouncingentrances/bounce-in-down/bounce
 import { BounceInLeftComponent } from './bouncingentrances/bounce-in-left/bounce-in-left.component';
 import { BounceInRightComponent } from './bouncingentrances/bounce-in-right/bounce-in-right.component';
 import { BounceInUpComponent } from './bouncingentrances/bounce-in-up/bounce-in-up.component';
+import { BounceOutComponent } from './bouncingexits/bounce-out/bounce-out.component';
+import { BounceOutDownComponent } from './bouncingexits/bounce-out-down/bounce-out-down.component';
+import { BounceOutLeftComponent } from './bouncingexits/bounce-out-left/bounce-out-left.component';
+import { BounceOutRightComponent } from './bouncingexits/bounce-out-right/bounce-out-right.component';
+import { BounceOutUpComponent } from './bouncingexits/bounce-out-up/bounce-out-up.component';
+import { FadeInComponent } from './fadingentrances/fade-in/fade-in.component';
+import { FadeInDownComponent } from './fadingentrances/fade-in-down/fade-in-down.component';
+import { FadeInDownBigComponent } from './fadingentrances/fade-in-down-big/fade-in-down-big.component';
+import { FadeInLeftComponent } from './fadingentrances/fade-in-left/fade-in-left.component';
+import { FadeInLeftBigComponent } from './fadingentrances/fade-in-left-big/fade-in-left-big.component';
+import { FadeInRightComponent } from './fadingentrances/fade-in-right/fade-in-right.component';
+import { FadeInRightBigComponent } from './fadingentrances/fade-in-right-big/fade-in-right-big.component';
+import { FadeInUpComponent } from './fadingentrances/fade-in-up/fade-in-up.component';
+import { FadeInUpBigComponent } from './fadingentrances/fade-in-up-big/fade-in-up-big.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +50,21 @@ import { BounceInUpComponent } from './bouncingentrances/bounce-in-up/bounce-in-
     BounceInDownComponent,
     BounceInLeftComponent,
     BounceInRightComponent,
-    BounceInUpComponent
+    BounceInUpComponent,
+    BounceOutComponent,
+    BounceOutDownComponent,
+    BounceOutLeftComponent,
+    BounceOutRightComponent,
+    BounceOutUpComponent,
+    FadeInComponent,
+    FadeInDownComponent,
+    FadeInDownBigComponent,
+    FadeInLeftComponent,
+    FadeInLeftBigComponent,
+    FadeInRightComponent,
+    FadeInRightBigComponent,
+    FadeInUpComponent,
+    FadeInUpBigComponent
   ],
   imports: [
     BrowserModule,

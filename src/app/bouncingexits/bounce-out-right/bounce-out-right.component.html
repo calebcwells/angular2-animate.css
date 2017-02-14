@@ -1,0 +1,3 @@
+<ul >
+  <li @bounceOutRight *ngFor="let box of boxList; let i = index" (click)="removeBox(i)">{{ box.id }}</li>
+</ul>
