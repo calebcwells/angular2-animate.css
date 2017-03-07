@@ -28,6 +28,15 @@ import { FadeInRightComponent } from './fadingentrances/fade-in-right/fade-in-ri
 import { FadeInRightBigComponent } from './fadingentrances/fade-in-right-big/fade-in-right-big.component';
 import { FadeInUpComponent } from './fadingentrances/fade-in-up/fade-in-up.component';
 import { FadeInUpBigComponent } from './fadingentrances/fade-in-up-big/fade-in-up-big.component';
+import { FadeOutComponent } from './fadingexits/fade-out/fade-out.component';
+import { FadeOutDownComponent } from './fadingexits/fade-out-down/fade-out-down.component';
+import { FadeOutDownBigComponent } from './fadingexits/fade-out-down-big/fade-out-down-big.component';
+import { FadeOutLeftComponent } from './fadingexits/fade-out-left/fade-out-left.component';
+import { FadeOutLeftBigComponent } from './fadingexits/fade-out-left-big/fade-out-left-big.component';
+import { FadeOutRightComponent } from './fadingexits/fade-out-right/fade-out-right.component';
+import { FadeOutRightBigComponent } from './fadingexits/fade-out-right-big/fade-out-right-big.component';
+import { FadeOutUpComponent } from './fadingexits/fade-out-up/fade-out-up.component';
+import { FadeOutUpBigComponent } from './fadingexits/fade-out-up-big/fade-out-up-big.component';
 
 export const routes: Routes = [
     { path: '', component: BounceComponent, pathMatch: 'full' },
@@ -59,6 +68,15 @@ export const routes: Routes = [
     { path: 'fade-in-right-big', component: FadeInRightBigComponent },
     { path: 'fade-in-up', component: FadeInUpComponent },
     { path: 'fade-in-up-big', component: FadeInUpBigComponent },
+    { path: 'fade-out', component: FadeOutComponent },
+    { path: 'fade-out-down', component: FadeOutDownComponent },
+    { path: 'fade-out-down-big', component: FadeOutDownBigComponent },
+    { path: 'fade-out-left', component: FadeOutLeftComponent },
+    { path: 'fade-out-left-big', component: FadeOutLeftBigComponent },
+    { path: 'fade-out-right', component: FadeOutRightComponent },
+    { path: 'fade-out-right-big', component: FadeOutRightBigComponent },
+    { path: 'fade-out-up', component: FadeOutUpComponent },
+    { path: 'fade-out-up-big', component: FadeOutUpBigComponent },
     { path: '**', component: BounceComponent }
 ];
 
