@@ -41,6 +41,13 @@ import { FadeOutRightComponent } from './fadingexits/fade-out-right/fade-out-rig
 import { FadeOutRightBigComponent } from './fadingexits/fade-out-right-big/fade-out-right-big.component';
 import { FadeOutUpComponent } from './fadingexits/fade-out-up/fade-out-up.component';
 import { FadeOutUpBigComponent } from './fadingexits/fade-out-up-big/fade-out-up-big.component';
+import { FlipComponent } from './flippers/flip/flip.component';
+import { FlipInXComponent } from './flippers/flip-in-x/flip-in-x.component';
+import { FlipInYComponent } from './flippers/flip-in-y/flip-in-y.component';
+import { FlipOutXComponent } from './flippers/flip-out-x/flip-out-x.component';
+import { FlipOutYComponent } from './flippers/flip-out-y/flip-out-y.component';
+import { LightSpeedInComponent } from './lightspeed/light-speed-in/light-speed-in.component';
+import { LightSpeedOutComponent } from './lightspeed/light-speed-out/light-speed-out.component';
 
 @NgModule({
   declarations: [
@@ -82,7 +89,14 @@ import { FadeOutUpBigComponent } from './fadingexits/fade-out-up-big/fade-out-up
     FadeOutRightComponent,
     FadeOutRightBigComponent,
     FadeOutUpComponent,
-    FadeOutUpBigComponent
+    FadeOutUpBigComponent,
+    FlipComponent,
+    FlipInXComponent,
+    FlipInYComponent,
+    FlipOutXComponent,
+    FlipOutYComponent,
+    LightSpeedInComponent,
+    LightSpeedOutComponent
   ],
   imports: [
     BrowserModule,
