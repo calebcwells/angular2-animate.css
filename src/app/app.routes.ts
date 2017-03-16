@@ -44,6 +44,16 @@ import { FlipOutXComponent } from './flippers/flip-out-x/flip-out-x.component';
 import { FlipOutYComponent } from './flippers/flip-out-y/flip-out-y.component';
 import { LightSpeedInComponent } from './lightspeed/light-speed-in/light-speed-in.component';
 import { LightSpeedOutComponent } from './lightspeed/light-speed-out/light-speed-out.component';
+import { RotateInComponent } from './rotatingentrances/rotate-in/rotate-in.component';
+import { RotateInDownLeftComponent } from './rotatingentrances/rotate-in-down-left/rotate-in-down-left.component';
+import { RotateInDownRightComponent } from './rotatingentrances/rotate-in-down-right/rotate-in-down-right.component';
+import { RotateInUpLeftComponent } from './rotatingentrances/rotate-in-up-left/rotate-in-up-left.component';
+import { RotateInUpRightComponent } from './rotatingentrances/rotate-in-up-right/rotate-in-up-right.component';
+import { RotateOutComponent } from './rotatingexits/rotate-out/rotate-out.component';
+import { RotateOutDownLeftComponent } from './rotatingexits/rotate-out-down-left/rotate-out-down-left.component';
+import { RotateOutDownRightComponent } from './rotatingexits/rotate-out-down-right/rotate-out-down-right.component';
+import { RotateOutUpLeftComponent } from './rotatingexits/rotate-out-up-left/rotate-out-up-left.component';
+import { RotateOutUpRightComponent } from './rotatingexits/rotate-out-up-right/rotate-out-up-right.component';
 
 export const routes: Routes = [
     { path: '', component: BounceComponent, pathMatch: 'full' },
@@ -91,6 +101,16 @@ export const routes: Routes = [
     { path: 'flip-out-y', component: FlipOutYComponent },
     { path: 'light-speed-in', component: LightSpeedInComponent },
     { path: 'light-speed-out', component: LightSpeedOutComponent },
+    { path: 'rotate-in', component: RotateInComponent },
+    { path: 'rotate-in-down-left', component: RotateInDownLeftComponent },
+    { path: 'rotate-in-down-right', component: RotateInDownRightComponent },
+    { path: 'rotate-in-up-left', component: RotateInUpLeftComponent },
+    { path: 'rotate-in-up-right', component: RotateInUpRightComponent },
+    { path: 'rotate-out', component: RotateOutComponent },
+    { path: 'rotate-out-down-left', component: RotateOutDownLeftComponent },
+    { path: 'rotate-out-down-right', component: RotateOutDownRightComponent },
+    { path: 'rotate-out-up-left', component: RotateOutUpLeftComponent },
+    { path: 'rotate-out-up-right', component: RotateOutUpRightComponent },
     { path: '**', component: BounceComponent }
 ];
 
