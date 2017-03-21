@@ -54,6 +54,16 @@ import { RotateOutDownLeftComponent } from './rotatingexits/rotate-out-down-left
 import { RotateOutDownRightComponent } from './rotatingexits/rotate-out-down-right/rotate-out-down-right.component';
 import { RotateOutUpLeftComponent } from './rotatingexits/rotate-out-up-left/rotate-out-up-left.component';
 import { RotateOutUpRightComponent } from './rotatingexits/rotate-out-up-right/rotate-out-up-right.component';
+import { ZoomInComponent } from './zoomentrances/zoom-in/zoom-in.component';
+import { ZoomInDownComponent } from './zoomentrances/zoom-in-down/zoom-in-down.component';
+import { ZoomInLeftComponent } from './zoomentrances/zoom-in-left/zoom-in-left.component';
+import { ZoomInRightComponent } from './zoomentrances/zoom-in-right/zoom-in-right.component';
+import { ZoomInUpComponent } from './zoomentrances/zoom-in-up/zoom-in-up.component';
+import { ZoomOutComponent } from './zoomexits/zoom-out/zoom-out.component';
+import { ZoomOutDownComponent } from './zoomexits/zoom-out-down/zoom-out-down.component';
+import { ZoomOutLeftComponent } from './zoomexits/zoom-out-left/zoom-out-left.component';
+import { ZoomOutRightComponent } from './zoomexits/zoom-out-right/zoom-out-right.component';
+import { ZoomOutUpComponent } from './zoomexits/zoom-out-up/zoom-out-up.component';
 
 export const routes: Routes = [
     { path: '', component: BounceComponent, pathMatch: 'full' },
@@ -111,6 +121,16 @@ export const routes: Routes = [
     { path: 'rotate-out-down-right', component: RotateOutDownRightComponent },
     { path: 'rotate-out-up-left', component: RotateOutUpLeftComponent },
     { path: 'rotate-out-up-right', component: RotateOutUpRightComponent },
+    { path: 'zoom-in', component: ZoomInComponent },
+    { path: 'zoom-in-down', component: ZoomInDownComponent },
+    { path: 'zoom-in-left', component: ZoomInLeftComponent },
+    { path: 'zoom-in-right', component: ZoomInRightComponent },
+    { path: 'zoom-in-up', component: ZoomInUpComponent },
+    { path: 'zoom-out', component: ZoomOutComponent },
+    { path: 'zoom-out-down', component: ZoomOutDownComponent },
+    { path: 'zoom-out-left', component: ZoomOutLeftComponent },
+    { path: 'zoom-out-right', component: ZoomOutRightComponent },
+    { path: 'zoom-out-up', component: ZoomOutUpComponent },
     { path: '**', component: BounceComponent }
 ];
 
