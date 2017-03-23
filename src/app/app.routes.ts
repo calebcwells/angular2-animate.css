@@ -64,6 +64,9 @@ import { ZoomOutDownComponent } from './zoomexits/zoom-out-down/zoom-out-down.co
 import { ZoomOutLeftComponent } from './zoomexits/zoom-out-left/zoom-out-left.component';
 import { ZoomOutRightComponent } from './zoomexits/zoom-out-right/zoom-out-right.component';
 import { ZoomOutUpComponent } from './zoomexits/zoom-out-up/zoom-out-up.component';
+import { HingeComponent } from './specials/hinge/hinge.component';
+import { RollInComponent } from './specials/roll-in/roll-in.component';
+import { RollOutComponent } from './specials/roll-out/roll-out.component';
 
 export const routes: Routes = [
     { path: '', component: BounceComponent, pathMatch: 'full' },
@@ -131,6 +134,9 @@ export const routes: Routes = [
     { path: 'zoom-out-left', component: ZoomOutLeftComponent },
     { path: 'zoom-out-right', component: ZoomOutRightComponent },
     { path: 'zoom-out-up', component: ZoomOutUpComponent },
+    { path: 'hinge', component: HingeComponent },
+    { path: 'roll-in', component: RollInComponent },
+    { path: 'roll-out', component: RollOutComponent },
     { path: '**', component: BounceComponent }
 ];
 
